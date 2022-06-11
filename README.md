@@ -1,2 +1,2 @@
-# IST_Game
-Game for project.
+# Insert Name Here
+GitHub of Insert Name Here
