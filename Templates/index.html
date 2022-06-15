@@ -3,15 +3,16 @@
 	<head>
 	<meta charset="utf-8">
 	<title>Story Game Name</title>
-	<script type="text/javascript" src = "main.js"></script>
 	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src = "main.js"></script>
 	</head>
 
-	<body>
-		<div class="box" class="menu">
-			<a class = "button" href="#0">Start Game</a>
-			<a class = "button" href="#0">Options</a>
-			<a class = "button" href="testing.html">Test Objects</a>
+	<body class="startMenu" onclick="play();">
+		<h1 class="title">Name Goes Here</h1>
+		<div class="box">
+			<a class = "button start" href="Game.html" onclick = "play();"> Start Game</a>
+			<a class = "button menu" href="#0" onclick = "play();">Options</a>
+			<a class = "button menu" onclick = "play();" href="testing.html">Test Objects</a>
 		</div>
 	</body>
 </html>
