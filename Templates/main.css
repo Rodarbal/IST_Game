@@ -1,26 +1,33 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 /* CSS Document */
-* { padding: 0; margin: 0;}
-html{
-	width: 100%;
-	height: 100%;
+* { padding: 0; 
+	margin: 0;
 }
 
-body{
+html {
+	width: 100%;
+	height: auto;
+	padding: 0; 
+	margin: 0;
+}
+
+body {
 	width: 100%;
 	min-height: 100%;
 	margin: 0px 0px;
+	padding: 0; 
+	margin: 0;
 }
 
-.box{
+.box {
 	height: 200px;
 	display: grid;
 	justify-content: center;
 	align-items: center;
 }
 
-.button{
+.button {
 	display: block;
 	padding: 10px 20px;
 	color: white;
@@ -35,16 +42,16 @@ body{
 .menu, .start{
 	/*padding: 30px 60px;*/
 	font-size: 36px;
-	margin: 60px 0px 60px 0px;
+	margin: 10% 0px 10% 0px;
 	background-color: transparent;
 	cursor: pointer;
 }
 
 .start{
-	margin-top: 30%;
+	margin-top: 23%;
 }
 
-.title{
+.title {
 	text-align: center;
 	font-size: 100px;
 	color: white;
@@ -58,7 +65,18 @@ body{
 	color: rgb(113 197 98);
 }
 
-.container{
+.disclaimer {
+	color: white;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	position: absolute;
+	bottom: 4%;
+	left: 2%;
+}
+#disclaimer{
+	font-weight: bold;
+}
+
+.container {
 	max-width: 95%;
 	margin: 20px auto;
 	min-height: 90vh;
@@ -71,30 +89,34 @@ body{
 	background-color: #ad8f18;
 	font-family: 'Kdam Thmor Pro', sans-serif;
 	font-size: 23px;
-	padding: 5px 27px;
+	padding: 13px 31px;
 	width: fit-content;
 	margin-left: calc(45vh + 20px);
 	border-radius: 10px 10px 0 0;
 	position: absolute;
-	bottom: 23%;
-	color: lightgrey;
+	bottom: 22%;
+	color: white;
+	font-weight: bold;
+	left: -19%;
 }
 
 .dialogue {
 	font-family: 'Kdam Thmor Pro', sans-serif;
 	font-size: 21px;
-	padding: 15px 35px;
+	padding: 10px 35px;
+	display: block;
 	/*padding: 3.9% 6.8%;*/
 	background-color: #e0d192;
-	width: 100vh;
+	width: 98.68%;
 	padding-bottom: 90px;
 	border-top: 13px solid #ad8f18;
 	/*margin: 70% 20% 0px 20%;*/
+	margin-left: 0px;
 	position: absolute;
-	bottom: 0px;
-	left: 0;
-	right: 0;
-	margin: auto;
+	bottom: -1.8%;
+	left: -3%;
+	right: 0px;
+	margin: 0 auto;
 }
 
 .options{
@@ -116,7 +138,6 @@ button {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 20px;
 	text-align: center;
-	margin: 0em;
 }
 
 button:hover {
@@ -126,5 +147,7 @@ button:hover {
 }
 
 #op1, #op2, #op3 {
-	margin-left: 15px;
+	margin: -1.5% 1.5%;
+
 }
+
