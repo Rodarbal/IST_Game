@@ -5,18 +5,8 @@ function play() {
     croak.currentTime = 0;
     croak.play();
 }
-/*var audio = new Audio();
-audio.src='Sounds/ribbit.mp3';
-audio.oncanplaythrough = (event) => {
-    var playedPromise = audio.play();
-    if (playedPromise) {
-        playedPromise.catch((e) => {
-             console.log(e)
-             if (e.name === 'NotAllowedError' || e.name === 'NotSupportedError') { 
-                   console.log(e.name);
-              }
-         }).then(() => {
-              console.log("playing sound !!!");
-         });
-    }
-}*/
+function chooseDialogue(option=0) {
+     dialogue = {button:{ "1a" : "test1", "2a" : "test2", "3a" : "test3"}, 
+     dia : {"a" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nulla veniam perferendis eveniet molestias magnam culpa adipisci magni itaque vitae!"}}
+     let changer = document.querySelector("#op1").innerHTML = dialogue.button["1a"];
+} 
