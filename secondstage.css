@@ -1,7 +1,7 @@
-/*Mainly for background */
+/*second stage*/
 body {
     image-rendering: crisp-edges;
-    background-image: url(./Images/charactertest.png);
+    background-image: url(Images/charactertest.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 70%;
@@ -25,4 +25,28 @@ a:hover {
 	background: white;
 	border: 3px solid #f0bb5a;
     text-decoration: none;
+}
+
+#op1,#op3{
+    display: none;
+}
+
+#dialogue{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: 21px;
+	padding: 10px 35px;
+	display: block;
+	/*padding: 3.9% 6.8%;*/
+	background-color: #e0d192;
+	width: 98.68%;
+	padding-bottom: 90px;
+	border-top: 13px solid #ad8f18;
+	/*margin: 70% 20% 0px 20%;*/
+	margin-left: 0px;
+	position: absolute;
+	left: -3%;
+	right: 0px;
+	margin: 0 auto;
+	white-space: nowrap;
+	bottom: -1.8%;
 }

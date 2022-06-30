@@ -40,7 +40,8 @@ function chooseDialogue(option=0, cass, letterChange=0) {
         if(iteration == 1){
             if(letterChange == 1){
                 document.body.style = "background-image: url(./Images/SecondStage.png);";
-                document.getElementById("op1").href = "/Templates/index.html";
+                let a = document.querySelector("#op1");
+                a.setAttribute('href', 'Rubbert.html')
                 document.getElementById('name').innerText = 'Rubbert';
                 console.log(letter)
             }
