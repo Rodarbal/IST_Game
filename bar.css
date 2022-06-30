@@ -1,7 +1,7 @@
 /*Mainly for background */
 body {
     image-rendering: crisp-edges;
-    background-image: url(./Images/BackgroundImage.jpeg);
+    background-image: url(./Images/charactertest.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 70%;

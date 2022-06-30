@@ -6,13 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="bar.css">
+        <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
         <script type="text/javascript" src = "main.js"></script>
-        <script type="text/javascript" src = "music.js"></script>
-        <title>Game Name</title>
+        <title>Ribbeting</title>
     </head>
     <body>
-        <embed src="./Sounds/Let'sGetTogetherNow!.mp3" loop="true" autostart="true" width="2" height="0">
-        <div class="container">
+            <div class="container">
             <div id="name">
                 <p>Orion</p>
             </div>
@@ -20,9 +19,9 @@
                 <p>Hi there! I'm Orion and I welcome *you* to... The Frog Pond, The finest drinking establishment on the pond.<p>
             </div>
             <div class="options">
-                <button id="op1" onclick = "chooseDialogue(1, '#op'); chooseDialogue(0,'a','.dialogue');">Nice to meet you too!</button>
-                <button id="op2" onclick = "chooseDialogue(1, '#op'); chooseDialogue(0,'b','.dialogue');">Get me something to drink.</button>
-                <button id="op3" onclick = "chooseDialogue(1, '#op'); chooseDialogue(0,'c','.dialogue');">...</button>
+                <button id="op1" href="#" onclick = "chooseDialogue(1, '#op', 1); chooseDialogue(0, '.dialogue', 1);">Nice to meet you too!</button>
+                <button id="op2" href="#" onclick = "chooseDialogue(1, '#op', 2); chooseDialogue(0, '.dialogue', 2);">Get me something to drink.</button>
+                <button id="op3" href="#" onclick = "chooseDialogue(1, '#op', 3); chooseDialogue(0, '.dialogue', 3);">...</button>
             </div>
         </div>
     </body>

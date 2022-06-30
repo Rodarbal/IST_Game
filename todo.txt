@@ -1,12 +1,10 @@
 To do now:
 - Add JS Dialogue system
-- Add Bar Background
-- Add Orion Over
+- add Orion
 - Get music
 - Add Parsley 
 - Add Parsley mini game (baking cake)
 
 extra features (if time):
 - get rid of scroll bar 
-- get rid of white space next to Dialogue
-- 
+
