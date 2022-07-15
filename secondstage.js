@@ -1,3 +1,5 @@
+"use strict";
+
 var iteration = 0; 
 if (document.URL.includes("Rubbert.html") ) {
     var dialogue = {"button" : {"1a":'Looks good!', "2a":'What even is this', "3a":"Chug the drink", '1c':'...', '2c':'continue','3c':"...",'1d':'...','2d':'continue','3d':'...','1e':'...',"2e":'continue',"3e":"...", '1g':'yes?', '2g':'yes!', '3g':'no',}, 
