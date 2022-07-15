@@ -13,8 +13,24 @@
 		<div class="box">
 			<a class = "button start" href="Game.html" onclick = "music(1);"> Start Game</a>
 			<a class = "button menu" href="#0" onclick = "play();">Options</a>
-			<a class = "button menu" href="#0" onclick = "play();">Credits</a>
+			<a class = "button menu" id ="popup"  onclick = "play();">Credits</a>
 		</div>
-		<p class="disclaimer"><span id="disclaimer">*Disclaimer</span><br>None of the featured drinks in this game are alcoholic and the love is strictly platonic. Enjoy!</p>
+		<script>
+			 document.getElementById("popup").addEventListener("click", function(){
+				alert("Ribbeting was created by Isaac Ratzemore & contributers.\n\nMusic: \"Ribbeting\" by Kevin MacLeod (incompetech.com)\n\nSounds: \"Ribbeting\" by Kevin MacLeod (incompetech.com)\n\nFont: \"Ribbeting\" by Kevin MacLeod (incompetech.com)");
+			});
+	</script>
+		<p class="disclaimer" ><span id="disclaimer">*Disclaimer</span><br>
+		<br>
+		SOFTWARE DIST
+	</p>
+	<script>
+		document.getElementById("disclaimer").addEventListener("click", function(){
+			//add a license
+		   alert("None of the featured drinks in this game are alcoholic and the love is strictly platonic. Enjoy! \n ");
+
+	   });
+</script>
+   
 	</body>
 </html>
