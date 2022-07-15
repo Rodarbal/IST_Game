@@ -1,3 +1,5 @@
+"use strict";
+
 console.log("Online")
 var letter = 0;
 var iteration = 0;
